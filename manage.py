@@ -1,9 +1,9 @@
 import discord
 import src
-from src import client
 
+from src import DiscordBot
+from src.utils import log
 
-intents = discord.Intents.all()
 
 
 
@@ -11,9 +11,13 @@ intents = discord.Intents.all()
 
 
 if __name__ == "__main__":
-
+   
     from dotenv import dotenv_values
-    configs=dotenv_values(".env")
-    client.run(configs["TOKEN"])
+    
 
+    intents = discord.Intents.all()
+    bot = DiscordBot(intents)
+
+    configs=dotenv_values(".env")
+    bot.run(configs["TOKEN"])
 

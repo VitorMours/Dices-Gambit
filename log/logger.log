@@ -1,0 +1,55 @@
+22-Mar-24 13:56:28 src DEBUG testando
+22-Mar-24 13:56:28 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 13:56:28 discord.client INFO logging in using static token
+22-Mar-24 13:56:30 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 9497f4ec6fd9017f1a99b2d872975c9c).
+22-Mar-24 13:56:30 src DEBUG Connected to discord
+22-Mar-24 13:59:03 src DEBUG testando
+22-Mar-24 13:59:03 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 13:59:03 discord.client INFO logging in using static token
+22-Mar-24 13:59:05 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: aa564ac26412ed1ee4ada09eda1af951).
+22-Mar-24 13:59:05 src DEBUG Connected to discord
+22-Mar-24 14:04:21 src DEBUG testando
+22-Mar-24 14:04:21 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 14:04:21 discord.client INFO logging in using static token
+22-Mar-24 14:04:22 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 2204dc034f38cb0b278fdf1eb55b556f).
+22-Mar-24 14:04:22 src INFO Connected to discord API
+22-Mar-24 14:04:24 src INFO User: Alpha Bot#1193 - 866114768472113152
+22-Mar-24 14:13:57 src DEBUG testando
+22-Mar-24 14:13:57 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 14:13:57 discord.client INFO logging in using static token
+22-Mar-24 14:13:58 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 738fb65d8236ac9cb54d9c1b3ecd9faa).
+22-Mar-24 14:13:58 src INFO Connected to discord API via: {self.user} - {self.user.id}
+22-Mar-24 14:14:00 src INFO Connected to the server and ready to serve
+22-Mar-24 14:14:16 discord.client ERROR Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/vitor/.local/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/vitor/projects/python/PythonDiscordBot/src/__init__.py", line 35, in on_message
+    await ctx.send(message)
+NameError: name 'ctx' is not defined
+22-Mar-24 14:22:10 src DEBUG testando
+22-Mar-24 14:22:10 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 14:22:10 discord.client INFO logging in using static token
+22-Mar-24 14:22:11 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: c14414582a3886ad112b77ab1a291eae).
+22-Mar-24 14:22:11 src INFO Connected to discord API via: {self.user} - {self.user.id}
+22-Mar-24 14:22:13 src INFO Connected to the server and ready to serve
+22-Mar-24 14:22:16 discord.client ERROR Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/vitor/.local/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/vitor/projects/python/PythonDiscordBot/src/__init__.py", line 36, in on_message
+    await bot.process_commands(message)
+NameError: name 'bot' is not defined
+22-Mar-24 14:22:30 src DEBUG testando
+22-Mar-24 14:22:30 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 14:22:30 discord.client INFO logging in using static token
+22-Mar-24 14:22:31 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 0e7d439fa10b4160fb8372e4fde02b13).
+22-Mar-24 14:22:31 src INFO Connected to discord API via: {self.user} - {self.user.id}
+22-Mar-24 14:22:33 src INFO Connected to the server and ready to serve
+22-Mar-24 14:24:56 src DEBUG testando
+22-Mar-24 14:24:56 asyncio DEBUG Using selector: EpollSelector
+22-Mar-24 14:24:56 discord.client INFO logging in using static token
+22-Mar-24 14:24:58 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 75b0035402f0434b5a0ad8bfa43d3780).
+22-Mar-24 14:24:58 src INFO Connected to discord API via: Alpha Bot#1193 - 866114768472113152
+22-Mar-24 14:25:00 src INFO Connected to the server and ready to serve
+22-Mar-24 14:25:02 src DEBUG vitor.py message: testando
